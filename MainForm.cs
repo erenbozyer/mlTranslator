@@ -4,11 +4,11 @@ using System.Windows.Forms;
 
 namespace mlTranslator
 {
-    public partial class Form1 : Form
+    public partial class MainForm : Form
     {
         private CeviriServisi _ceviriServisi;
 
-        public Form1()
+        public MainForm()
         {
             InitializeComponent();
             _ceviriServisi = new CeviriServisi();
